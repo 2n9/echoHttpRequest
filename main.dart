@@ -1,4 +1,4 @@
-#bool isInt(num value) => value is int || value == value.roundToDouble();
+//bool isInt(num value) => value is int || value == value.roundToDouble();
 bool isInt(String value) => s != null && (double.parse(s, (e) => null) != null);
 
 main(List<String> args) async {
